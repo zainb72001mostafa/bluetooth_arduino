@@ -3,20 +3,14 @@
 #define n2 4
 #define n3 3
 #define n4 2
-//irSensor pins
-//int irL =9;
-//int irR =8;
+
 char readBlt;
-//int readR;
-//int readL;
 
 void setup() {
   pinMode(n1,OUTPUT);
   pinMode(n2,OUTPUT);
   pinMode(n3,OUTPUT);
   pinMode(n4,OUTPUT);
-  //pinMode(irL, INPUT);
-  //pinMode(irR, INPUT);
   Serial.begin(9600);
   
 
